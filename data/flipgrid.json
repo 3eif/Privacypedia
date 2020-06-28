@@ -61,7 +61,7 @@
         ]
       },
       "noncriticalPurposes": {
-        "value": "na",
+        "value": "N/A",
         "notes": [
           "The policy does not specify any significant non-critical uses of data."
         ]

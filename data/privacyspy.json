@@ -44,7 +44,7 @@
         ]
       },
       "dataBreaches": {
-        "value": "yes-72",
+        "value": "Yes,-72",
         "citations": [
           "\"If we learn of a data breach, we will notify all affected users within 72 hours of discovery.\""
         ]
@@ -65,7 +65,7 @@
         ]
       },
       "noncriticalPurposes": {
-        "value": "na",
+        "value": "N/A",
         "citations": [
           "\"We do not collect any personal information except that which you give yourself to the site, however we will nonetheless make a best-effort attempt to respect Do Not Track (DNT) browser requests.\""
         ]

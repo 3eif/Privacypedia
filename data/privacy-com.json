@@ -49,7 +49,7 @@
         ]
       },
       "thirdPartyAccess": {
-        "value": "yes-unspecified-critical",
+        "value": "Yes,-unspecified-critical",
         "citations": [
           "We Share Personal Data Under Controlled Circumstances:\\r\n\\r\\n- With third parties, within the United States and in other countries, who may access data about you to perform functions on our behalf;\\r\\n\\r\\n- With financial institutions, processors, payment card associations and other entities that are involved in the payment process;\\r\\n\\r\\n- With government and law enforcement where reasonably necessary to comply with applicable law, regulation, legal process, governmental request;\\r\\n\\r\\n- With others where reasonably necessary to protect the security or integrity of our Services or user safety;\\r\\n\\r\\n- In Connection with, or during the negotiation of, any merger, sale of company stock or assets, financing, acquisition, divestiture or dissolution of all or a portion of our business;\\r\\n\\r\\n- With your consent.\\r\\n\\r\\nWe may share data that is not personally identifiable with third parties."
         ]
@@ -64,7 +64,7 @@
         ]
       },
       "noncriticalPurposes": {
-        "value": "na",
+        "value": "N/A",
         "notes": [
           "As the use of Personal Data is limited to \"providing, maintaining, and improving\" the service, communicating with users, and keeping users and the company safe, there is no indication of the collection of non-critical data. No opt-out feature is available for any data collection by Privacy.com."
         ]

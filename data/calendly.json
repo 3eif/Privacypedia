@@ -19,7 +19,7 @@
         ]
       },
       "security": {
-        "value": "yes-audits",
+        "value": "Yes,-audits",
         "notes": [
           "Calendly describes its security practices on a dedicated [security page](https://calendly.com/pages/security)."
         ]
@@ -49,7 +49,7 @@
         ]
       },
       "thirdPartyAccess": {
-        "value": "yes-unspecified",
+        "value": "Yes,-unspecified",
         "citations": [
           "We may share information we collect about you, including Personal Data, in the following ways:\\r\n\\r\\nWith third-party Service Providers, agents, contractors, or government entities.\\r\\n\\r\\n- We use other companies, agents or contractors (“Service Providers”) to perform services on our behalf or to assist us with providing services to you:\\r\\n- We may engage Service Providers to process credit card transactions or other payment methods. We may also engage Service Providers to provide services such as monitoring and developing Calendly services; aiding in communications, infrastructure, and IT services; customer service; debt collection; analyzing and enhancing data. These Service Providers may have access to your personal or other information in order to provide these functions. In addition, some of the above-listed types of information that we request may be collected by third-party Service Providers on our behalf.\\r\\n- We may share information with Service Providers and government entities for legal, security, and safety purposes. This includes sharing information in order to enforce policies or contracts, address security breaches, and assist in the investigation of fraud, security issues, or other concerns.\\r\\n- We require Service Providers to agree to take reasonable steps to keep the Personal Data that we provide to them secure. We do not authorize them to use or disclose your Personal Data except in connection with providing their services.\\r\\n"
         ]

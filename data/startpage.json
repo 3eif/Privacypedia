@@ -19,7 +19,7 @@
         ]
       },
       "security": {
-        "value": "na",
+        "value": "N/A",
         "citations": [
           "Startpage.com doesn’t log or share your personal information. \\r\n"
         ]
@@ -37,13 +37,13 @@
         ]
       },
       "dataDeletion": {
-        "value": "na",
+        "value": "N/A",
         "citations": [
           "Startpage.com doesn’t log or share your personal information. "
         ]
       },
       "dataBreaches": {
-        "value": "na",
+        "value": "N/A",
         "notes": [
           "No personally identifiable data is collected, thus notification is not possible."
         ]
@@ -55,31 +55,31 @@
         ]
       },
       "dataCollectionReasoning": {
-        "value": "na",
+        "value": "N/A",
         "citations": [
           "Startpage.com doesn’t log or share your personal information. "
         ]
       },
       "noncriticalPurposes": {
-        "value": "na",
+        "value": "N/A",
         "citations": [
           "Startpage.com doesn’t log or share your personal information. "
         ]
       },
       "lawEnforcement": {
-        "value": "na",
+        "value": "N/A",
         "citations": [
           "Any request will have to come from Dutch judicial authorities. We’ll only comply if we’re legally obliged to do so. But we’re not likely to receive requests by governments to hand over user data – simply because we don’t have any."
         ]
       },
       "listCollected": {
-        "value": "na",
+        "value": "N/A",
         "citations": [
           "Startpage.com doesn’t log or share your personal information. "
         ]
       },
       "revisionNotify": {
-        "value": "na",
+        "value": "N/A",
         "citations": [
           "Startpage.com doesn’t log or share your personal information. "
         ]

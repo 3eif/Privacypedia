@@ -20,7 +20,7 @@
         ]
       },
       "security": {
-        "value": "yes-audits",
+        "value": "Yes,-audits",
         "citations": [
           "\"We work hard to protect you and Google from unauthorized access, alteration, disclosure, or destruction of information we hold, including:\\r\n\\r\n- We use encryption to keep your data private while in transit\\r\\n- We offer a range of security features, like Safe Browsing, Security Checkup, and 2 Step Verification to help you protect your account\\r\\n- We review our information collection, storage, and processing practices, including physical security measures, to prevent unauthorized access to our systems\\r\\n- We restrict access to personal information to Google employees, contractors, and agents who need that information in order to process it. Anyone with this access is subject to strict contractual confidentiality obligations and may be disciplined or terminated if they fail to meet these obligations.\""
         ]
@@ -50,7 +50,7 @@
         ]
       },
       "thirdPartyAccess": {
-        "value": "yes-unspecified",
+        "value": "Yes,-unspecified",
         "citations": [
           "\"We provide personal information to our affiliates and other trusted businesses or persons to process it for us, based on our instructions and in compliance with our Privacy Policy and any other appropriate confidentiality and security measures. For example, we use service providers to help us with customer support.\""
         ]

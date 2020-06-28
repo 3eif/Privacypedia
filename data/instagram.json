@@ -49,7 +49,7 @@
         ]
       },
       "thirdPartyAccess": {
-        "value": "yes-unspecified-critical",
+        "value": "Yes,-unspecified-critical",
         "citations": [
           "\"We work with third-party partners who help us provide and improve our Products or who use Facebook Business Tools to grow their businesses, which makes it possible to operate our companies and provide free services to people around the world. We don't sell any of your information to anyone, and we never will. We also impose strict restrictions on how our partners can use and disclose the data we provide.\""
         ],

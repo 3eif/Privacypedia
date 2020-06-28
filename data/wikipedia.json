@@ -50,7 +50,7 @@
         ]
       },
       "thirdPartyAccess": {
-        "value": "yes-unspecified-critical",
+        "value": "Yes,-unspecified-critical",
         "citations": [
           "\"As hard as we may try, we can't do it all. So sometimes we use third-party service providers or contractors who help run or improve the Wikimedia Sites for you and other users. We give access to your Personal Information to these providers or contractors as needed to perform their services for us or to use their tools and services. We put requirements, such as confidentiality agreements, in place to help ensure that these service providers treat your information consistently with, and no less protective of your privacy than, the principles of this Policy.\""
         ]
@@ -62,7 +62,7 @@
         ]
       },
       "noncriticalPurposes": {
-        "value": "na",
+        "value": "N/A",
         "citations": [
           "\"We and our service providers use your information for the legitimate purpose of pursuing our charitable mission...\""
         ]

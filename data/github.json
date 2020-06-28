@@ -56,7 +56,7 @@
         ]
       },
       "thirdPartyAccess": {
-        "value": "yes-specified-critical",
+        "value": "Yes,-specified-critical",
         "citations": [
           "We do share User Personal Information with a limited number of third party vendors [...].\\r\n\\r\\nOur vendors perform services such as payment processing, customer support ticketing, network data transmission, and other similar services."
         ],

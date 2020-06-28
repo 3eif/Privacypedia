@@ -20,7 +20,7 @@
         ]
       },
       "security": {
-        "value": "na",
+        "value": "N/A",
         "citations": [
           "Quad9 believes that privacy and control of your personal information is critical to your trust and therefore to the success of the system. Quad9 does not store PII IP address data on permanent storage methods (disk) or transmit that data out of the datacenter in which the query was received. All logging and inter-datacenter traffic is encrypted. Quad9 makes available encryption between clients and the Quad9 system to further protect against data interception or modification."
         ]
@@ -38,13 +38,13 @@
         ]
       },
       "dataDeletion": {
-        "value": "na",
+        "value": "N/A",
         "notes": [
           "The only personally identifiable data that Quad9 collects is IP addresses; however, they are encrypted."
         ]
       },
       "dataBreaches": {
-        "value": "na",
+        "value": "N/A",
         "notes": [
           "No contact information is collected."
         ]
@@ -56,19 +56,19 @@
         ]
       },
       "dataCollectionReasoning": {
-        "value": "na",
+        "value": "N/A",
         "notes": [
           "The service only collects technical data needed to operate."
         ]
       },
       "noncriticalPurposes": {
-        "value": "na",
+        "value": "N/A",
         "notes": [
           "All data used is explicitly for the purpose of providing the service."
         ]
       },
       "lawEnforcement": {
-        "value": "na",
+        "value": "N/A",
         "citations": [
           "\"It may be required by law, litigation, legal process, and/or legally binding requests from public and governmental authorities within or outside your country of residence for Quad9 to disclose your personal information.\"\\r\n\\r\n\"Quad9 believes that privacy and control of your personal information is critical to your trust and therefore to the success of the system. Quad9 does not store PII IP address data on permanent storage methods (disk) or transmit that data out of the datacenter in which the query was received. All logging and inter-datacenter traffic is encrypted. Quad9 makes available encryption between clients and the Quad9 system to further protect against data interception or modification.\""
         ]
@@ -80,7 +80,7 @@
         ]
       },
       "revisionNotify": {
-        "value": "na",
+        "value": "N/A",
         "notes": [
           "No contact information is ever collected."
         ]

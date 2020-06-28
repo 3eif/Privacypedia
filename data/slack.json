@@ -19,7 +19,7 @@
         ]
       },
       "security": {
-        "value": "yes-independent-audits",
+        "value": "Yes,-independent-audits",
         "citations": [
           "Slack takes security of data very seriously. Slack works hard to protect Other Information you provide from loss, misuse, and unauthorized access or disclosure. These steps take into account the sensitivity of the Other Information we collect, process and store, and the current state of technology. Slack has received internationally recognized security certifications for ISO 27001 (information security management system) and ISO 27018 (for protecting personal data in the cloud). To learn more about current practices and policies regarding security and confidentiality of the Services, please see our Security Practices. Given the nature of communications and information processing technology, Slack cannot guarantee that Information, during transmission through the Internet or while stored on our systems or otherwise in our care, will be absolutely safe from intrusion by others."
         ],
@@ -55,7 +55,7 @@
         ]
       },
       "thirdPartyAccess": {
-        "value": "yes-unspecified",
+        "value": "Yes,-unspecified",
         "notes": [
           "Slack also uses cookies from third-party providers like Google Analytics, Facebook, LinkedIn, Convertro, Quantcast, Drift, and Optimizely to track usage of their products and provide social media share buttons/advertising. From linked document https://slack.com/cookie-policy: \"We may use cookies to help us deliver marketing campaigns and track their performance (e.g., a user visited our Help Center and then made a purchase). Similarly, our partners may use cookies to provide us with information about your interactions with their services, but use of those third-party cookies would be subject to the service provider’s policies.\\r\n\\r\n\"Cookies help us learn how well our Sites and Services perform. We also use cookies to understand, improve, and research products, features, and services, including to create logs and record when you access our Sites and Services from different devices, such as your work computer or your mobile device.\""
         ]

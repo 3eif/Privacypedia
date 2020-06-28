@@ -23,7 +23,7 @@
         ]
       },
       "security": {
-        "value": "na",
+        "value": "N/A",
         "notes": [
           "In addition to not collecting any personally identifiable information, DuckDuckGo's privacy policy also outlines how they handle redirects to other websites so that those websites don't have access to searches."
         ]
@@ -41,13 +41,13 @@
         ]
       },
       "dataDeletion": {
-        "value": "na",
+        "value": "N/A",
         "citations": [
           "DuckDuckGo does not collect or share personal information. That is our privacy policy in a nutshell."
         ]
       },
       "dataBreaches": {
-        "value": "na",
+        "value": "N/A",
         "notes": [
           "DuckDuckGo does not collect any personal information."
         ]
@@ -59,31 +59,31 @@
         ]
       },
       "dataCollectionReasoning": {
-        "value": "na",
+        "value": "N/A",
         "citations": [
           "DuckDuckGo does not collect or share personal information. That is our privacy policy in a nutshell."
         ]
       },
       "noncriticalPurposes": {
-        "value": "na",
+        "value": "N/A",
         "citations": [
           "DuckDuckGo does not collect or share personal information. That is our privacy policy in a nutshell."
         ]
       },
       "lawEnforcement": {
-        "value": "na",
+        "value": "N/A",
         "citations": [
           "Also, like anyone else, we will comply with court ordered legal requests. However, in our case, we don't expect any because there is nothing useful to give them since we don't collect any personal information."
         ]
       },
       "listCollected": {
-        "value": "na",
+        "value": "N/A",
         "citations": [
           "DuckDuckGo does not collect or share personal information. That is our privacy policy in a nutshell."
         ]
       },
       "revisionNotify": {
-        "value": "na",
+        "value": "N/A",
         "citations": [
           "If this policy is substantively updated, we will update the text of this page and provide notice to you at [https://duckduckgo.com/about](https://duckduckgo.com/about) by writing '(Updated)' in red next to the link to this page (in the footer) for a period of at least 30 days."
         ]

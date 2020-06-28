@@ -30,7 +30,16 @@ class WebsitePage extends StatelessWidget {
         preferredSize: Size.fromHeight(50.0),
         child: AppBar(
           elevation: 1,
-          backgroundColor: Colors.black,
+          backgroundColor: Colors.indigo,
+          title: Text(
+            website.hostnames.replaceAll('https://', ''),
+            style: GoogleFonts.roboto(
+              textStyle: TextStyle(
+                color: Colors.white,
+                fontSize: 22,
+              ),
+            ),
+          ),
         ),
       ),
       body: SafeArea(
@@ -60,8 +69,8 @@ class WebsitePage extends StatelessWidget {
                         website.name,
                         textDirection: TextDirection.ltr,
                         style: TextStyle(
-                          fontSize: 40,
-                          color: Colors.black87,
+                          fontSize: 30,
+                          color: Colors.black,
                         ),
                       ),
                     ),
@@ -71,7 +80,7 @@ class WebsitePage extends StatelessWidget {
                         '${website.score}/10',
                         textDirection: TextDirection.ltr,
                         style: TextStyle(
-                          fontSize: 30,
+                          fontSize: 25,
                           color: website.scoreColor,
                         ),
                       ),
@@ -106,11 +115,12 @@ class WebsitePage extends StatelessWidget {
                     child: SizedBox(
                       width: 150,
                       child: new RaisedButton(
-                        child:
-                            new Text('Website', style: TextStyle(fontSize: 15)),
+                        child: new Text('Website',
+                            style:
+                                TextStyle(fontSize: 15, color: Colors.white)),
                         onPressed: () => launch(website.hostnames),
-                        color: Colors.black,
-                        elevation: 2,
+                        color: Colors.indigo[800],
+                        elevation: 7,
                       ),
                     ),
                   ),
@@ -118,11 +128,13 @@ class WebsitePage extends StatelessWidget {
                     child: SizedBox(
                       width: 150,
                       child: new RaisedButton(
-                        child: new Text('Privacy Policy',
-                            style: TextStyle(fontSize: 15)),
+                        child: new Text(
+                          'Privacy Policy',
+                          style: TextStyle(fontSize: 15, color: Colors.white),
+                        ),
                         onPressed: () => launch(website.privacyPolicy),
-                        color: Colors.black,
-                        elevation: 2,
+                        color: Colors.indigo[800],
+                        elevation: 7,
                       ),
                     ),
                   ),
@@ -130,10 +142,9 @@ class WebsitePage extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(
-                  top: 1.0, left: 25.0, right: 25.0, bottom: 5.0),
+              padding: const EdgeInsets.only(top: 1.0, left: 25.0, right: 25.0),
               child: new Divider(
-                color: Colors.black,
+                color: Colors.indigo,
               ),
             ),
             Flexible(
@@ -141,15 +152,15 @@ class WebsitePage extends StatelessWidget {
                 child: ListView.builder(
                   scrollDirection: Axis.vertical,
                   shrinkWrap: true,
-                  padding: const EdgeInsets.symmetric(
-                      vertical: 5.0, horizontal: 25.0),
+                  padding: const EdgeInsets.only(
+                      bottom: 10.0, left: 25.0, right: 25.0),
                   itemCount: website.rubric.length,
                   itemBuilder: (BuildContext context, int index) {
                     return Padding(
                       padding: const EdgeInsets.symmetric(
                           horizontal: 12.0, vertical: 4.0),
                       child: Card(
-                        elevation: 3,
+                        elevation: 7,
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: RichText(

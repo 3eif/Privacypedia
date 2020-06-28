@@ -53,7 +53,7 @@
         ]
       },
       "thirdPartyAccess": {
-        "value": "yes-unspecified-critical",
+        "value": "Yes,-unspecified-critical",
         "citations": [
           "At times Apple may provide third parties with certain personal information to provide or improve our products and services, including to deliver products at your request, or to help Apple market to consumers. When we do, we require those third parties to handle it in accordance with relevant laws. Personal information will never be shared with third parties for their marketing purposes."
         ]

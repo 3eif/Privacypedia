@@ -77,7 +77,7 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
           ),
-          backgroundColor: Colors.black,
+          backgroundColor: Colors.indigo,
         ),
       ),
       body: Scrollbar(
@@ -89,7 +89,7 @@ class _HomePageState extends State<HomePage> {
               padding:
                   const EdgeInsets.symmetric(horizontal: 12.0, vertical: 4.0),
               child: Card(
-                elevation: 3,
+                elevation: 7.5,
                 child: ListTile(
                   contentPadding:
                       const EdgeInsets.only(left: 2.0, top: 5.0, bottom: 5.0),

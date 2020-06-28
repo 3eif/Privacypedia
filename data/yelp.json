@@ -55,7 +55,7 @@
         ]
       },
       "thirdPartyAccess": {
-        "value": "yes-specified-noncritical",
+        "value": "Yes,-specified-noncritical",
         "citations": [
           "Advertisers: We may allow third parties to use Cookies through the Service to collect the same type of information for the same purposes as we do. In doing so, we adhere to the Digital Advertising Alliance’s Self-Regulatory Principles for Online Behavioral Advertising. **Third parties may be able to associate the information they collect with other information they have about you from other sources.** We do not necessarily have access to or control over the Cookies they use, but you may be able to opt out of some of their practices by visiting the following links: Network Advertising Initiative, Omniture and Digital Advertising Alliance"
         ]

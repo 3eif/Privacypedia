@@ -46,7 +46,7 @@
         ]
       },
       "dataBreaches": {
-        "value": "na",
+        "value": "N/A",
         "notes": [
           "The service only collects enough information to create a user account; the email addresses and passwords are stored encrypted."
         ]
@@ -67,13 +67,13 @@
         ]
       },
       "noncriticalPurposes": {
-        "value": "na",
+        "value": "N/A",
         "notes": [
           "No additional data is collected."
         ]
       },
       "lawEnforcement": {
-        "value": "na",
+        "value": "N/A",
         "citations": [
           "We WILL NOT disclose your information even if we believe we are required to do so by law, or to comply with a court order, judicial or other government subpoena, or warrant. We will fight it because nothing we have is relevant to anything but your login. We don't track what you search or when you search."
         ]

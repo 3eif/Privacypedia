@@ -52,7 +52,7 @@
         ]
       },
       "thirdPartyAccess": {
-        "value": "yes-unspecified",
+        "value": "Yes,-unspecified",
         "notes": [
           "Specifies general groups of parties but uses \"such as\" so the list is not complete."
         ]

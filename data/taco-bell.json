@@ -41,7 +41,7 @@
         ]
       },
       "thirdPartyAccess": {
-        "value": "yes-unspecified",
+        "value": "Yes,-unspecified",
         "citations": [
           "Our third party providers may collect location data through GPS, Wi-Fi, wireless network triangulation or other similar methods."
         ]
