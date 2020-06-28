@@ -141,12 +141,6 @@ class WebsitePage extends StatelessWidget {
                 ],
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(top: 1.0, left: 25.0, right: 25.0),
-              child: new Divider(
-                color: Colors.indigo,
-              ),
-            ),
             Flexible(
               child: Scrollbar(
                 child: ListView.builder(

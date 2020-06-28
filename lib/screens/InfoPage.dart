@@ -80,7 +80,7 @@ class InfoPage extends StatelessWidget {
                             ),
                             TextSpan(
                               text:
-                                  'Privacypedia collects and summarizes privacy polcies to help people be mindful of their data.\n\nMade in 36 hours with Dart & Flutter during AtlasHacks 2020',
+                                  'Privacypedia summarizes privacy polcies to help people be mindful and aware of their data.\n\nMade in 36 hours with Dart & Flutter during AtlasHacks 2020',
                               style: TextStyle(
                                   fontSize: 17.5, color: Colors.black),
                             ),
