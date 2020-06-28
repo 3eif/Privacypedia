@@ -1,11 +1,11 @@
 import 'dart:convert';
 import 'dart:async';
-import 'Website.dart';
+import '../structures/Website.dart';
 import 'WebsitePage.dart';
-import 'loadAsset.dart';
+import '../services/loadAsset.dart';
 import 'package:flutter/material.dart';
-import 'getData.dart';
-import 'parseData.dart';
+import '../services/getData.dart';
+import '../services/parseData.dart';
 
 class HomePage extends StatefulWidget {
   @override

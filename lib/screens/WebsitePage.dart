@@ -1,4 +1,4 @@
-import 'Website.dart';
+import '../structures/Website.dart';
 import 'package:flutter/material.dart';
 
 List<String> rubricDescriptions = [

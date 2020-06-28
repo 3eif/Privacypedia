@@ -1,4 +1,4 @@
-import 'Website.dart';
+import '../structures/Website.dart';
 
 Website parseData(Map data, final moreData, int i) {
   var website = Website();
