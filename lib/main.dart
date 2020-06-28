@@ -5,6 +5,22 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
 
+List<String> rubricDescriptions = [
+  'Does the policy allow personally-targeted or behavioral marketing?',
+  'Does the policy outline the service\'s general security practices?',
+  'Does the service collect personal data from third parties?',
+  'Is the policy\'s history made available?',
+  'Does the service allow you to permanently delete your personal data?',
+  'Does the policy require users to be notified in case of a data breach?',
+  'Does the service allow third-party access to private personal data?',
+  'Is it clear why the service collects the personal data that it does?',
+  'Is it clear why the service collects the personal data that it does?',
+  'When does the policy allow law enforcement access to personal data?',
+  'Does the service allow the user to control whether personal data is collected or used for non-critical purposes?',
+  'Does the policy list the personal data it collects?',
+  'Will affected users be notified when the policy is meaningfully changed?',
+];
+
 void main() {
   runApp(MaterialApp(
     home: HomePage(),
@@ -30,7 +46,7 @@ class _HomePageState extends State<HomePage> {
 
     for (var i = 0; i < websitesData.length; i++) {
       var data = websitesData[i];
-      if (data['name'] == 'The Guardian') continue;
+      if (data['slug'] == 'youtube') continue;
       String websiteDetailsJSON = await loadAsset('data/${data['slug']}.json');
       final moreData = json.decode(websiteDetailsJSON);
 
@@ -39,9 +55,31 @@ class _HomePageState extends State<HomePage> {
       website.name = data['name'];
       website.score = data['score'].toString();
       website.description = moreData['description'];
-      print(moreData['sources'][0]);
       website.privacyPolicy =
           moreData['sources'][0] == null ? 'None' : moreData['sources'][0];
+
+      List<String> rubrics = [
+        'behavioralMarketing',
+        'security',
+        'thirdPartyCollection',
+        'history',
+        'dataDeletion',
+        'dataBreaches',
+        'thirdPartyAccess',
+        'dataCollectionReasoning',
+        'lawEnforcement',
+        'nonCriticalPusposes',
+        'listCollected',
+        'revisionNotify'
+      ];
+      website.rubric = [];
+      for (var n = 0; n < rubrics.length; n++) {
+        website.rubric.add(!moreData['rubric'].containsKey(rubrics[n])
+            ? 'None'
+            : moreData['rubric'][rubrics[n]]['value']);
+      }
+
+      print(website.rubric);
 
       setState(() {
         websites.add(website);
@@ -110,12 +148,24 @@ class WebsitePage extends StatelessWidget {
         title: Text(website.name),
         backgroundColor: Colors.purple[900],
       ),
-      body: Center(
-        child: RaisedButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          child: Text('Go back!'),
+      body: SafeArea(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Image.asset(
+              'images/${website.logo}',
+              height: 100,
+              width: 100,
+            ),
+            Text(
+              'Name: ${website.name}\nScore: ${website.score}\nWebsite: ${website.hostnames}\nDescription: ${website.description}\nPrivacy Policy: ${website.privacyPolicy}\nSummary: $rubricDescriptions${website.rubric}',
+              textDirection: TextDirection.ltr,
+              style: TextStyle(
+                fontSize: 15,
+                color: Colors.black87,
+              ),
+            ),
+          ],
         ),
       ),
     );

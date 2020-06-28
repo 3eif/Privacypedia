@@ -12,7 +12,7 @@
       "kulchynska"
     ],
     "rubric": {
-      "behavioral-marketing": {
+      "behavioralMarketing": {
         "value": "yes",
         "citations": [
           "\tIntended to make advertising more relevant to users and more valuable to advertisers. For example, we may use Cookies to serve you interest-based ads, such as ads that are displayed to you based on your visits to other websites, or to tell us if you have recently clicked on an ad."
@@ -27,7 +27,7 @@
           "We use various safeguards to protect the personal information submitted to us, both during transmission and once we receive it. However, no method of transmission over the Internet or via mobile device, or method of electronic storage, is 100% secure. Therefore, while we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security."
         ]
       },
-      "third-party-collection": {
+      "thirdPartyCollection": {
         "value": "yes",
         "citations": [
           "Third Party Accounts: If you sign up for, or log into, Yelp using a third party service like Facebook or Google, or link your Yelp account to your account with a third party service like Facebook, Instagram or Twitter, we may receive information about you from such third party service. If you post content to a third party service through the Service, that third party service will also receive that content, which will be visible to anyone that has access to it through that third party service.\\r\n\\r\\n We may rely on third party providers to support or provide some of the services that are available through the Service, such as reservations and food delivery. We may also rely on third party providers to perform certain services for us in connection with your use of the Service, such as communications and hosting services, network security, technical and customer support, tracking and reporting functions, quality assurance testing, payment processing, **our own marketing of the Service,** and other functions. **We may share information from or about you with these third party providers so that they can perform their services or complete your requests.**"
@@ -42,19 +42,19 @@
           "Last Updated on March 29, 2019. This Privacy Policy is effective March 29, 2019 for all users. To review the previous policy, please click here."
         ]
       },
-      "data-deletion": {
+      "dataDeletion": {
         "value": "no",
         "citations": [
           "You can close your account by clicking here. We will remove certain public posts from view and/or dissociate them from your account profile, but we may retain information about you for the purposes authorized under this Privacy Policy unless prohibited by law. For example, we may retain information to prevent, investigate, or identify possible wrongdoing in connection with the Service or to comply with legal obligations. Please note that businesses cannot remove their business listings, ratings, or reviews by closing their accounts."
         ]
       },
-      "data-breaches": {
+      "dataBreaches": {
         "value": "no",
         "notes": [
           "The policy doesn't specify a data breach protocol."
         ]
       },
-      "third-party-access": {
+      "thirdPartyAccess": {
         "value": "yes-specified-noncritical",
         "citations": [
           "Advertisers: We may allow third parties to use Cookies through the Service to collect the same type of information for the same purposes as we do. In doing so, we adhere to the Digital Advertising Alliance’s Self-Regulatory Principles for Online Behavioral Advertising. **Third parties may be able to associate the information they collect with other information they have about you from other sources.** We do not necessarily have access to or control over the Cookies they use, but you may be able to opt out of some of their practices by visiting the following links: Network Advertising Initiative, Omniture and Digital Advertising Alliance"

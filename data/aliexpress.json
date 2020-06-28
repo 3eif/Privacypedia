@@ -15,7 +15,7 @@
       "vutut"
     ],
     "rubric": {
-      "behavioral-marketing": {
+      "behavioralMarketing": {
         "value": "yes",
         "citations": [
           "Cookies or other similar technologies may be used to provide you with advertising based upon your browsing activities and interests."
@@ -27,7 +27,7 @@
           "We implement appropriate technical and organisational measures to prevent unauthorized access to the Site, to maintain data accuracy and to ensure the correct use of the information we hold. "
         ]
       },
-      "third-party-collection": {
+      "thirdPartyCollection": {
         "value": "critical-only",
         "citations": [
           "If you are a Buyer or Seller we may receive personal information about you from: \\r\nSocial media platforms if you choose to register for a Platform account via a social media account. \\r\\n\\r\\nThird parties that are engaged by us to provide verification services."
@@ -39,49 +39,49 @@
           "No previous version or list of changes is available."
         ]
       },
-      "data-deletion": {
+      "dataDeletion": {
         "value": "no",
         "notes": [
           "Only for users within EEA countries by contacting someone."
         ]
       },
-      "data-breaches": {
+      "dataBreaches": {
         "value": "eventually",
         "citations": [
           "Upon becoming aware of a data breach, we will notify you and the regulatory authorities in accordance with the timescales and scope required by applicable data protection law."
         ]
       },
-      "third-party-access": {
+      "thirdPartyAccess": {
         "value": "yes-unspecified",
         "notes": [
           "Specifies general groups of parties but uses \"such as\" so the list is not complete."
         ]
       },
-      "data-collection-reasoning": {
+      "dataCollectionReasoning": {
         "value": "somewhat",
         "citations": [
           "We may also use your personal information for other purposes that are not incompatible with the purposes we have disclosed to you if and where this is permitted by applicable data protection laws."
         ]
       },
-      "noncritical-purposes": {
+      "noncriticalPurposes": {
         "value": "no",
         "notes": [
           "No option to opt-out specified besides for legally required for users from EEA countries."
         ]
       },
-      "law-enforcement": {
+      "lawEnforcement": {
         "value": "reasonable",
         "citations": [
           "To our professional advisers, law enforcement agencies, insurers, government and regulatory and other organisations where we believe it is necessary to comply with applicable laws or to exercise, establish or defend our legal rights or protect your vital interests or those of any other person; or as otherwise required or permitted by applicable laws."
         ]
       },
-      "list-collected": {
+      "listCollected": {
         "value": "generally",
         "notes": [
           "Lists collected data but with use of \"such as\" so the list is not exhaustive."
         ]
       },
-      "revision-notify": {
+      "revisionNotify": {
         "value": "no",
         "citations": [
           "When we update our Privacy Policy, we will take appropriate measures to inform you, consistent with the significance of the changes we make, such as by posting an amended Privacy Policy on the Platform."

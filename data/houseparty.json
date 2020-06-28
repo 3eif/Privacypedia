@@ -12,7 +12,7 @@
       "milesmcc"
     ],
     "rubric": {
-      "behavioral-marketing": {
+      "behavioralMarketing": {
         "value": "yes",
         "citations": [
           "We use some information for marketing purposes. We use your information to share updates about new products and special offers, including promotions, surveys, and contests, through email, on our app, or on social media platforms. We might also use this information to tell you about products and offers, new features, or updates. These might be our own offers or products or select third-party offers or products we think you might find interesting."
@@ -24,7 +24,7 @@
           "The policy does not mention any security practices."
         ]
       },
-      "third-party-collection": {
+      "thirdPartyCollection": {
         "value": "yes",
         "citations": [
           "We get information about you from third parties. Social media platforms and third-party apps may give us information about you. We may also collect information about you from other users. This might include your name, phone number, or email address if they invite or refer you to our app or if they have linked their contacts to their Houseparty account."
@@ -36,7 +36,7 @@
           "Last Updated: June 11, 2018"
         ]
       },
-      "data-deletion": {
+      "dataDeletion": {
         "value": "no",
         "citations": [
           "The Terms will continue to apply until terminated by either you or Life On Air as follows. You may end your legal agreement with Life On Air at any time for any reason by deactivating your account and discontinuing your use of the Services. In order to deactivate your account, please contact us hello@houseparty.com."
@@ -45,19 +45,19 @@
           "While the policy allows users to deactivate their accounts by contacting support, there is no mention of permanent data deletion."
         ]
       },
-      "data-breaches": {
+      "dataBreaches": {
         "value": "no",
         "notes": [
           "The policy does not specify a data breach protocol."
         ]
       },
-      "third-party-access": {
+      "thirdPartyAccess": {
         "value": "yes-unspecified",
         "citations": [
           "We share information with our vendors. We may share information with trusted third parties, including companies who serve as our vendors and help us deliver our services and social media partners if you elect to use social media integration features. **We may also share some information with companies that help operate our app or run a promotion.**"
         ]
       },
-      "data-collection-reasoning": {
+      "dataCollectionReasoning": {
         "value": "no",
         "citations": [
           "Now that you know what we collect, we want to tell you why and what we do with that information. Below we explain how we use information:\\r\n\\r\\n[...]\\r\\n\\r\\nWe also use information as otherwise permitted by law."
@@ -66,25 +66,25 @@
           "The policy does not provide a detailed list of reasons why it collects the information that it does. (Every reason uses non-explicit language like \"such as.\")"
         ]
       },
-      "noncritical-purposes": {
+      "noncriticalPurposes": {
         "value": "no",
         "notes": [
           "There is no mention of any opt-out procedure."
         ]
       },
-      "law-enforcement": {
+      "lawEnforcement": {
         "value": "always",
         "citations": [
           "We will share information if we think we have to in order to comply with the law or to protect ourselves. For example, we will share information to respond to a court order or subpoena **or if a U.S. or non-U.S. law enforcement agency, government agency, or investigatory body requests it.** We may also share information we collect when we investigate potential fraud, abuse, or other similar violations of Houseparty rules and codes of conduct."
         ]
       },
-      "list-collected": {
+      "listCollected": {
         "value": "summarily",
         "notes": [
           "The policy uses vague and broad language to list the personal data it collects."
         ]
       },
-      "revision-notify": {
+      "revisionNotify": {
         "value": "no",
         "citations": [
           "Things change. The world evolves. Here at Houseparty, we want to keep current with the times. This might mean that our practices will change. We will notify you of any material changes to our policy as required by law. We will also post an updated copy on our website. Please check our site periodically for updates."

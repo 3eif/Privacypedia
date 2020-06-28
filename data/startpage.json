@@ -12,7 +12,7 @@
       "vutut"
     ],
     "rubric": {
-      "behavioral-marketing": {
+      "behavioralMarketing": {
         "value": "no",
         "citations": [
           "In order to enable the prevention of click fraud, some non-identifying system information is shared, but because we never share personal information or information that could uniquely identify you, the ads we display are not connected to any individual user."
@@ -24,7 +24,7 @@
           "Startpage.com doesn’t log or share your personal information. \\r\n"
         ]
       },
-      "third-party-collection": {
+      "thirdPartyCollection": {
         "value": "no",
         "citations": [
           "Startpage.com doesn’t log or share your personal information. "
@@ -36,49 +36,49 @@
           "No date of publication or revisions in the privacy policy."
         ]
       },
-      "data-deletion": {
+      "dataDeletion": {
         "value": "na",
         "citations": [
           "Startpage.com doesn’t log or share your personal information. "
         ]
       },
-      "data-breaches": {
+      "dataBreaches": {
         "value": "na",
         "notes": [
           "No personally identifiable data is collected, thus notification is not possible."
         ]
       },
-      "third-party-access": {
+      "thirdPartyAccess": {
         "value": "no",
         "citations": [
           "Startpage.com doesn’t log or share your personal information. "
         ]
       },
-      "data-collection-reasoning": {
+      "dataCollectionReasoning": {
         "value": "na",
         "citations": [
           "Startpage.com doesn’t log or share your personal information. "
         ]
       },
-      "noncritical-purposes": {
+      "noncriticalPurposes": {
         "value": "na",
         "citations": [
           "Startpage.com doesn’t log or share your personal information. "
         ]
       },
-      "law-enforcement": {
+      "lawEnforcement": {
         "value": "na",
         "citations": [
           "Any request will have to come from Dutch judicial authorities. We’ll only comply if we’re legally obliged to do so. But we’re not likely to receive requests by governments to hand over user data – simply because we don’t have any."
         ]
       },
-      "list-collected": {
+      "listCollected": {
         "value": "na",
         "citations": [
           "Startpage.com doesn’t log or share your personal information. "
         ]
       },
-      "revision-notify": {
+      "revisionNotify": {
         "value": "na",
         "citations": [
           "Startpage.com doesn’t log or share your personal information. "
