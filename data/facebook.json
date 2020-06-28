@@ -32,13 +32,13 @@
         ]
       },
       "history": {
-        "value": "last-modified",
+        "value": "Only the date it was last modified",
         "notes": [
           "The policy includes a 'date of last revision' on the bottom of the policy, but does not have a change-log or revision history."
         ]
       },
       "dataDeletion": {
-        "value": "yes-automated",
+        "value": "Yes, using an automated mechanism",
         "citations": [
           "We provide you with the ability to access, rectify, port and erase your data."
         ]

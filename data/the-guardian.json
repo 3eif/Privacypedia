@@ -13,7 +13,7 @@
     ],
     "rubric": {
       "behavioralMarketing": {
-        "value": "yes-opt-out",
+        "value": "yes,-opt-out",
         "citations": [
           "We use personalised online advertising on our sites. "
         ]
@@ -37,7 +37,7 @@
         ]
       },
       "dataDeletion": {
-        "value": "yes-contact",
+        "value": "Yes, by contacting someone",
         "citations": [
           "You also have the right to ask us to delete your personal data or restrict how it is used. [...] If you want to make any of these requests, please contact dataprotection@theguardian.com.\\r\n\\r\\n[...]\\r\\n\\r\\nThere may be exceptions to the right to erasure for specific legal reasons which, if applicable, we will set out for you in response to your request."
         ]

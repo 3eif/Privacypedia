@@ -13,7 +13,7 @@
     ],
     "rubric": {
       "behavioralMarketing": {
-        "value": "yes-opt-out",
+        "value": "yes,-opt-out",
         "citations": [
           "The Company and its affiliates may use this information to contact you in the future to tell you about services we believe will be of interest to you.\\r\n\\r\\n[...]\\r\\n\\r\\nYou may see our Service advertised in other applications or websites. After clicking on one of these advertisements and installing our Service, you will become a user of the Service. **Advertising platforms, which include Twitter and Facebook (and whose SDKs are integrated within our Service), may collect information for optimizing advertising campaigns outside of the Service.**\\r\\n\\r\\nIf you do not wish to receive personalized advertising that is delivered by third parties outside of the Discord Service, you may be able to exercise that choice through opt-out programs that are administered by third parties, including the Network Advertising Initiative (NAI), the Digital Advertising Alliance (DAA). Our Services currently do not respond to “Do Not Track” (DNT) signals and operate as described in this Privacy Policy whether or not a DNT signal is received, as there is no consistent industry standard for compliance."
         ]
@@ -43,7 +43,7 @@
         ]
       },
       "dataDeletion": {
-        "value": "yes-contact",
+        "value": "Yes, by contacting someone",
         "citations": [
           "In addition to the functionality available through the “Settings” of the Services, in which you can correct, update, amend, or delete certain personal data, you can also request other modifications from us directly.\\r\n\\r\\n[...]\\r\\n\\r\\nPlease write us at privacy@discordapp.com with the words “Personal Data Request” in the subject or body of your message, along with an explanation of what data subject right you are seeking to exercise. For your protection, we may take steps to verify identity before responding to your request."
         ],

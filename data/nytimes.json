@@ -13,7 +13,7 @@
     ],
     "rubric": {
       "behavioralMarketing": {
-        "value": "yes-opt-out",
+        "value": "yes,-opt-out",
         "citations": [
           "“These companies place or recognize cookies, pixel tags, web beacons or other technology to track certain information about our NYT Services website users. For example, in the course of serving certain advertisements, an advertiser may place or recognize a unique cookie on your browser in order to collect certain information about your use of the NYT Services. For another example, an advertiser or ad server may also be able to collect your device’s unique identifier in the course of serving an ad. In many cases, this information could be used to show you ads on other websites based on your interests.”"
         ],
@@ -34,13 +34,13 @@
         ]
       },
       "history": {
-        "value": "last-modified",
+        "value": "Only the date it was last modified",
         "notes": [
           "The last modified date is available at the top of the policy."
         ]
       },
       "dataDeletion": {
-        "value": "yes-contact",
+        "value": "Yes, by contacting someone",
         "citations": [
           "\"If you would like to request to review, correct, restrict or delete personal information that you have previously provided to us, object to the processing of personal information, or if you would like to request to receive an electronic copy of your personal information for purposes of transmitting it to another company (to the extent this right to data portability is provided to you by applicable law), you may contact us by completing this form.\""
         ]

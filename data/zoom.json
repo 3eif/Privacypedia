@@ -34,13 +34,13 @@
         ]
       },
       "history": {
-        "value": "last-modified",
+        "value": "Only the date it was last modified",
         "citations": [
           "If we make any material changes to the way we handle personal data as described here, we will notify you by posting an updated notice on our website. We encourage you to review this page regularly for the latest information on our privacy practices. The effective date at the top of this policy indicates when the policy was last revised."
         ]
       },
       "dataDeletion": {
-        "value": "yes-automated",
+        "value": "Yes, using an automated mechanism",
         "citations": [
           "We will retain personal data collected for as long as required to do what we say we will in this policy, unless a longer retention period is required by law. Customers can delete their own content."
         ],

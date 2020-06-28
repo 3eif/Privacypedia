@@ -31,13 +31,13 @@
         ]
       },
       "history": {
-        "value": "last-modified",
+        "value": "Only the date it was last modified",
         "notes": [
           "The last modified date is listed at the top of the privacy policy."
         ]
       },
       "dataDeletion": {
-        "value": "yes-automated",
+        "value": "Yes, using an automated mechanism",
         "citations": [
           "You may delete your Account at any time. You can do so from your Account Settings page on the Site or the App or by emailing us at hello@padlet.com. If you email us, we may require sufficient identifying information to be able to determine that you own the account. \\r\n\\r\\nWhen you delete your account, we delete: \\r\\n\\r\\n* your profile information and any other content you provide in your profile (such as your name, username, password, email address, and profile photos) \\r\\n* all the padlets you have created and all the content posted on them, whether or not that content was created by you \\r\\n"
         ]

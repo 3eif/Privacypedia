@@ -13,7 +13,7 @@
     ],
     "rubric": {
       "behavioralMarketing": {
-        "value": "yes-opt-out",
+        "value": "yes,-opt-out",
         "citations": [
           "If you are using a browser, then cookies and web beacons can be used to collect information to help determine your likely interests. If you are using a mobile device, tablet, or streaming media device that includes a resettable device identifier, then that identifier can be used to help determine your likely interests\\r\nTo opt out of interest-based ads from Netflix in connection with an resettable device identifier on a mobile device, tablet, or streaming media devices, please configure the appropriate setting on your device"
         ]
@@ -37,7 +37,7 @@
         ]
       },
       "dataDeletion": {
-        "value": "yes-automated",
+        "value": "Yes, using an automated mechanism",
         "citations": [
           "You can most easily do this by visiting the \"Account\" portion of our website, where you have the ability to access and update a broad range of information about your account, including your contact information, your Netflix payment information, and various related information about your account (such as the content you have viewed and rated). You must be signed in to access the \"Account\" section. You may also request that we delete personal information that we hold about you"
         ]

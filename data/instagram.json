@@ -31,13 +31,13 @@
         ]
       },
       "history": {
-        "value": "last-modified",
+        "value": "Only the date it was last modified",
         "notes": [
           "While the policy lists the date it was last modified, it does not show a full revision history."
         ]
       },
       "dataDeletion": {
-        "value": "yes-automated",
+        "value": "Yes, using an automated mechanism",
         "citations": [
           "\"We provide you with the ability to access, rectify, port and erase your data. Learn more in your Facebook Settings and Instagram Settings.\""
         ]

@@ -14,7 +14,7 @@
     ],
     "rubric": {
       "behavioralMarketing": {
-        "value": "yes-opt-out",
+        "value": "yes,-opt-out",
         "citations": [
           "\"We use the information we collect to customize our services for you, including providing recommendations, personalized content, and customized search results.\""
         ]
@@ -38,7 +38,7 @@
         ]
       },
       "dataDeletion": {
-        "value": "yes-automated",
+        "value": "Yes, using an automated mechanism",
         "citations": [
           "\"You can export a copy of content in your Google Account if you want to back it up or use it with a service outside of Google.\"\\r\n\\r\n\"To delete your information, you can:\\r\n- Delete your content from specific Google services\\r\\n- Search for and then delete specific items from your account using My Activity\\r\\n- Delete specific Google products, including your information associated with those products\\r\\n- Delete your entire Google Account\""
         ]

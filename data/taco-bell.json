@@ -13,7 +13,7 @@
     ],
     "rubric": {
       "behavioralMarketing": {
-        "value": "yes-opt-out",
+        "value": "yes,-opt-out",
         "citations": [
           "We may use your location information to provide personalized content and advertising, to enhance your shopping and dining experience, to allow you to view deals and products available to you based on your location [...] For more information on how to block, delete and/or disable tracking technologies, see “Your Choices and Control Over Your Information” below."
         ]
@@ -31,7 +31,7 @@
         ]
       },
       "history": {
-        "value": "last-modified",
+        "value": "Only the date it was last modified",
         "citations": []
       },
       "dataBreaches": {

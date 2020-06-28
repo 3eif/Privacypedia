@@ -38,7 +38,7 @@
         ]
       },
       "dataDeletion": {
-        "value": "yes-automated",
+        "value": "Yes, using an automated mechanism",
         "notes": [
           "While there is no mention of it in the policy, the service allows for it in the settings."
         ]

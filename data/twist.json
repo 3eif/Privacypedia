@@ -34,13 +34,13 @@
         ]
       },
       "history": {
-        "value": "last-modified",
+        "value": "Only the date it was last modified",
         "notes": [
           "There is no option to review the privacy policy's history, but a last effective date is shown."
         ]
       },
       "dataDeletion": {
-        "value": "yes-automated",
+        "value": "Yes, using an automated mechanism",
         "citations": [
           "\"Upon [deleting your account](https://get.twist.help/hc/articles/115003963589), all your personal data will be removed from our production systems. Only an encrypted copy of your data will remain on our backup archives for 90 days. After this period, all data associated with your account will be deleted permanently.\""
         ]

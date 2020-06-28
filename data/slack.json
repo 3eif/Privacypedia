@@ -13,7 +13,7 @@
     ],
     "rubric": {
       "behavioralMarketing": {
-        "value": "yes-opt-out",
+        "value": "yes,-opt-out",
         "citations": [
           "Slack may also process Other Information that constitutes your Personal Data for direct marketing purposes and you have a right to object to Slack’s use of your Personal Data for this purpose at any time."
         ]
@@ -34,13 +34,13 @@
         ]
       },
       "history": {
-        "value": "last-modified",
+        "value": "Only the date it was last modified",
         "citations": [
           "Effective: April 20, 2018"
         ]
       },
       "dataDeletion": {
-        "value": "yes-contact",
+        "value": "Yes, by contacting someone",
         "citations": [
           "Individuals located in certain countries, including the European Economic Area, have certain statutory rights in relation to their personal data. Subject to any exemptions provided by law, you may have the right to request access to Information, as well as to seek to update, delete or correct this Information. You can usually do this using the settings and tools provided in your Services account. If you cannot use the settings and tools, contact Customer for additional access and assistance. Please check https://slack.com/account/settings for Customer contact information.\\r\n\\r\\n"
         ],

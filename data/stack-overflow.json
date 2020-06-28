@@ -40,7 +40,7 @@
         ]
       },
       "dataDeletion": {
-        "value": "yes-automated",
+        "value": "Yes, using an automated mechanism",
         "citations": [
           "Stack Overflow will delete personal information stored on you, which we are not required by necessity to maintain.\\r\n\\r\\n"
         ],

@@ -13,7 +13,7 @@
     ],
     "rubric": {
       "behavioralMarketing": {
-        "value": "yes-opt-out",
+        "value": "yes,-opt-out",
         "citations": [
           "Our Website may contain links to third-party websites and applications. Subject to your opt-out preferences (see Your Rights and Choices), we may also use third-party advertisers, ad networks, and other advertising, marketing, and promotional companies, to serve advertisements on our Website. Any access to and use of such linked websites and applications is not governed by this Notice but instead is governed by the privacy policies of those third parties. We do not endorse these parties, their content, or any products and services they offer, and we do not endorse these parties, their content, or any products and services they offer, and we are not responsible for the information practices of such third-party websites or applications. "
         ]
@@ -31,7 +31,7 @@
         ]
       },
       "history": {
-        "value": "last-modified",
+        "value": "Only the date it was last modified",
         "notes": [
           "The policy only lists the date it was last modified (in this case, January 1, 2020)."
         ]

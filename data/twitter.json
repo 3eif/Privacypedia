@@ -13,7 +13,7 @@
     ],
     "rubric": {
       "behavioralMarketing": {
-        "value": "yes-opt-out",
+        "value": "yes,-opt-out",
         "citations": [
           "\"Advertising revenue allows us to support and improve our services. We use the information described in this Privacy Policy to help make our advertising more relevant to you, to measure its effectiveness, and to help recognize your devices to serve you ads on and off of Twitter.\"\\r\n\\r\n\"Twitter adheres to the Digital Advertising Alliance Self-Regulatory Principles for Online Behavioral Advertising (also referred to as “interest-based advertising”) and respects the DAA’s consumer choice tool for you to opt out of interest-based advertising at https://optout.aboutads.info. In addition, our ads policies prohibit advertisers from targeting ads based on categories that we consider sensitive or are prohibited by law, such as race, religion, politics, sex life, or health. Learn more about your privacy options for interest-based ads here and about how ads work on our services here.\""
         ]
@@ -37,7 +37,7 @@
         ]
       },
       "dataDeletion": {
-        "value": "yes-automated",
+        "value": "Yes, using an automated mechanism",
         "citations": [
           "\"We keep Log Data for a maximum of 18 months. If you follow the instructions here (or for Periscope here), your account will be deactivated and then deleted. When deactivated, your Twitter account, including your display name, username, and public profile, will no longer be viewable on Twitter.com, Twitter for iOS, and Twitter for Android. For up to 30 days after deactivation it is still possible to restore your Twitter account if it was accidentally or wrongfully deactivated.\"\\r\n\\r\n\"Twitter provides you a means to download the information you have shared through our services by following the steps here. Periscope provides you a means to download the information you have shared through our services by following the steps here.\""
         ]

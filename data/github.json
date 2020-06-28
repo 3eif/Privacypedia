@@ -41,7 +41,7 @@
         ]
       },
       "dataDeletion": {
-        "value": "yes-automated",
+        "value": "Yes, using an automated mechanism",
         "citations": [
           "If you're already a GitHub user, you may access, update, alter, or delete your basic user profile information by editing your user profile or contacting GitHub Support or GitHub Premium Support. You can control the information we collect about you by limiting what information is in your profile, by updating out of date information, or by contacting GitHub Support or GitHub Premium Support.\\r\n\\r\\nIf GitHub processes information about you and you do not have an account, such as information GitHub receives from third parties, then you may access, update, alter, delete, or object to the processing of your personal information by contacting GitHub Support or GitHub Premium Support.\\r\\n\\r\\nIf you would like to cancel your account or delete your User Personal Information, you may do so in your user profile. We will retain and use your information as necessary to comply with our legal obligations, resolve disputes, and enforce our agreements, but barring legal requirements, we will delete your full profile (within reason) within 90 days. You may contact GitHub Support or GitHub Premium Support to request the erasure of the data we process on the basis of consent within 30 days."
         ],

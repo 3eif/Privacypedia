@@ -8,9 +8,9 @@ Website parseData(Map data, final moreData, int i) {
   website.name = data['name'];
   website.score = data['score'].toString();
   website.description = moreData['description'];
-  website.hostnames = moreData['hostnames'][0];
+  website.hostnames = 'https://${moreData['hostnames'][0]}';
   website.privacyPolicy =
-      moreData['sources'][0] == null ? 'None' : moreData['sources'][0];
+      moreData['sources'][0] == null ? 'N/A' : moreData['sources'][0];
 
   if (double.parse(website.score) >= 7.5)
     website.scoreColor = Colors.green;
@@ -34,10 +34,12 @@ Website parseData(Map data, final moreData, int i) {
     'revisionNotify'
   ];
   website.rubric = [];
+  String capitalize(String s) => s[0].toUpperCase() + s.substring(1);
   for (var n = 0; n < rubrics.length; n++) {
     website.rubric.add(!moreData['rubric'].containsKey(rubrics[n])
         ? 'None'
-        : moreData['rubric'][rubrics[n]]['value']);
+        : capitalize(
+            moreData['rubric'][rubrics[n]]['value'].replaceAll('-', ' ')));
   }
 
   return website;

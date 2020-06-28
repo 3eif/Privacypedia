@@ -13,7 +13,7 @@
     ],
     "rubric": {
       "behavioralMarketing": {
-        "value": "yes-opt-out",
+        "value": "yes,-opt-out",
         "citations": [
           "Advertisers and Analytics Providers\\r\n\\r\\nWe may use third-party Web analytics services in connection with the Twitch Services, such as those of Google Analytics, and its advertising features. These service providers use a variety of tracking technologies such as cookies to analyze how users use the Twitch Services. The information collected (described above in “Automatically Collected Information”) will be collected directly by these service providers to evaluate your use of the Twitch Services. For more information on how Google Analytics uses data from our websites and how you can control the information sent to Google, click here. To learn about opting out of Google Analytics, please click here. Because these opt outs are cookie-based, please note that if you get a new computer or device, install or start using a new browser, or erase or alter your browser’s cookie file, you may need to opt out again.\\r\\nDo Not Track\\r\\nDo Not Track (“DNT”) is a privacy preference that users can set in certain web browsers. DNT is a way for users to inform websites and services that they do not want certain information about their webpage visits collected over time and across websites or online services. We are committed to providing you with meaningful choices about the information collected on our website for third-party purposes, and that is why we provide the Network Advertising Initiative, Your Online Choices and the Digital Advertising Alliance opt-out links above. However, Twitch does not recognize or respond to browser-initiated DNT signals."
         ]
@@ -31,13 +31,13 @@
         ]
       },
       "history": {
-        "value": "last-modified",
+        "value": "Only the date it was last modified",
         "notes": [
           "The policy displays the date it was last modified on the top of the page."
         ]
       },
       "dataDeletion": {
-        "value": "yes-automated",
+        "value": "Yes, using an automated mechanism",
         "citations": [
           "If you would like to close your account and delete your profile information on www.twitch.tv go to https://www.twitch.tv/user/delete_account. For Twitch Services other than twitch.tv, you may update or delete information tied to your account, or close an account, by accessing the “My Account” area of the service or by submitting a help ticket to that service. If you close your account, Twitch may retain certain information about you for the activities described in this Privacy Policy, or as permitted or required by applicable law."
         ],
