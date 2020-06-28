@@ -4,6 +4,7 @@ import '../structures/Website.dart';
 import 'WebsitePage.dart';
 import '../services/loadAsset.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../services/getData.dart';
 import '../services/parseData.dart';
 
@@ -41,9 +42,24 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("TOS Summary"),
-        backgroundColor: Colors.purple[900],
+      appBar: PreferredSize(
+        preferredSize: Size.fromHeight(70.0),
+        child: AppBar(
+          elevation: 1,
+          title: Padding(
+            padding: const EdgeInsets.only(top: 20.0, left: 10.0),
+            child: Text(
+              "TOS Summary",
+              style: GoogleFonts.roboto(
+                textStyle: TextStyle(
+                  color: Colors.white,
+                  fontSize: 22,
+                ),
+              ),
+            ),
+          ),
+          backgroundColor: Colors.black,
+        ),
       ),
       body: Scrollbar(
         child: ListView.builder(
@@ -52,14 +68,34 @@ class _HomePageState extends State<HomePage> {
           itemBuilder: (BuildContext context, int index) {
             return ListTile(
               contentPadding:
-                  const EdgeInsets.only(left: 10.0, top: 10.0, bottom: 10.0),
+                  const EdgeInsets.only(left: 10.0, top: 5.0, bottom: 5.0),
               leading: Image.asset(
                 'images/${websites[index].logo}',
-                height: 100,
-                width: 100,
+                height: 110,
+                width: 110,
               ),
-              title: Text(websites[index].name),
-              subtitle: Text('${websites[index].score}/10'),
+              title: Padding(
+                padding: const EdgeInsets.only(top: 7.5, left: 5.0),
+                child: Text(
+                  websites[index].name,
+                  style: TextStyle(
+                    fontSize: 18,
+                  ),
+                ),
+              ),
+              subtitle: Align(
+                alignment: Alignment.bottomLeft,
+                child: Chip(
+                  label: new Text(
+                    '${websites[index].score}/10',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  backgroundColor: websites[index].scoreColor,
+                ),
+              ),
               onTap: () {
                 Navigator.push(
                   context,

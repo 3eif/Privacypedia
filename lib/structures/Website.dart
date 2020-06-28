@@ -11,7 +11,6 @@ class Website {
   Color scoreColor;
 
   List<String> rubric;
-
   String behavioralMarketing;
   String security;
   String thirdPartyCollection;

@@ -1,4 +1,5 @@
 import '../structures/Website.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
 
 List<String> rubricDescriptions = [
@@ -24,9 +25,21 @@ class WebsitePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(website.name),
-        backgroundColor: Colors.purple[900],
+      appBar: PreferredSize(
+        preferredSize: Size.fromHeight(50.0),
+        child: AppBar(
+          elevation: 1,
+          title: Text(
+            website.name,
+            style: GoogleFonts.roboto(
+              textStyle: TextStyle(
+                color: Colors.white,
+                fontSize: 22,
+              ),
+            ),
+          ),
+          backgroundColor: Colors.black,
+        ),
       ),
       body: SafeArea(
         child: Column(
