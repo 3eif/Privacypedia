@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'dart:async';
-import 'dart:io';
+import 'Website.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
@@ -16,13 +16,6 @@ class HomePage extends StatefulWidget {
   _HomePageState createState() => _HomePageState();
 }
 
-class Website {
-  String logo;
-  String name;
-  String score;
-  Color scoreColor;
-}
-
 Future<String> loadAsset(String path) async {
   return await rootBundle.loadString(path);
 }
@@ -31,22 +24,24 @@ class _HomePageState extends State<HomePage> {
   List<dynamic> websites = [];
 
   Future getData() async {
-    //Get the JSON file
     http.Response websitesResponse =
         await http.get("https://privacyspy.org/api/v2/index.json");
-
     List websitesData = json.decode(websitesResponse.body);
 
     for (var i = 0; i < websitesData.length; i++) {
       var data = websitesData[i];
+      if (data['name'] == 'The Guardian') continue;
+      String websiteDetailsJSON = await loadAsset('data/${data['slug']}.json');
+      final moreData = json.decode(websiteDetailsJSON);
 
-      String jsonCrossword = await loadAsset('data/${data['name']}.json');
-      print(jsonCrossword);
-
-      var website = Website(); //The logo object
+      var website = Website();
       website.logo = data['icon'].replaceAll('svg', 'png');
       website.name = data['name'];
       website.score = data['score'].toString();
+      website.description = moreData['description'];
+      print(moreData['sources'][0]);
+      website.privacyPolicy =
+          moreData['sources'][0] == null ? 'None' : moreData['sources'][0];
 
       setState(() {
         websites.add(website);
